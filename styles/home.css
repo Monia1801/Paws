@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.navbar{
+  position:sticky;
+  top:0;
+  padding:0 40px 0 20px;
+  background-color:grey;
+  height:12vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+#logo{
+  background-color: green;
+  height:70px;
+  width:70px;
+  border-radius:50rem;
+}
+
+.left-navbar{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  gap:20px;
+}
+
+.right-navbar{
+  gap:40px;
+  display:flex;
+}
+
+.zeroeth-scroll,.about,.testimonials{
+  display:flex;
+  height:88vh;
+  align-items:center;
+  justify-content:center;
+}
+
+.zeroeth-scroll-content,.about-content,.testimonials-content{     
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  border-radius: 25px;
+  border: 3px solid rgb(0, 0, 0);
+  height:50vh;
+  width:50vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  line-height:1.5;
+} 
+
