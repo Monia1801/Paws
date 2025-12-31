@@ -34,6 +34,12 @@
   display:flex;
 }
 
+a{
+  text-decoration:none;
+  color:black;
+  font-size:25px;
+}
+
 .zeroeth-scroll,.about,.testimonials{
   display:flex;
   height:88vh;
