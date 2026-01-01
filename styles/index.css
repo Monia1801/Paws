@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100vh;
+}
+
+.navbar{
+  height: 13vh;
+  background-color:grey;
+  position:sticky;
+  top:0;
+  display:flex;
+  align-items:center;
+}
+
+#logo{
+  height:11vh;
+}
