@@ -15,8 +15,30 @@ body{
   top:0;
   display:flex;
   align-items:center;
+  padding:0 20px;
+}
+
+.left-navbar{
+  display:flex;
+  gap:20px;
+  align-items:center;
+}
+
+.right-navbar{
+  display:flex; 
+  align-items:flex-end;
+  margin-left:auto;
+  gap:20px;
 }
 
 #logo{
   height:11vh;
+  width:11vh;
+  border-radius:50rem;
+}
+
+#search-bar{
+  flex:1;
+  display:flex; 
+  justify-content:center;
 }
