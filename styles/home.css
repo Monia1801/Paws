@@ -20,7 +20,8 @@ p{
   position:sticky;
   top:0;
   padding:0 40px 0 20px;
-  background-color:grey;
+  background-color:#484848;
+  color:white;
   height:12vh;
   display:flex;
   align-items:center;
@@ -48,8 +49,28 @@ p{
 
 a{
   text-decoration:none;
-  color:black;
+  color:white;
   font-size:25px;
+}
+
+a:hover{
+  color:#F29133;
+}
+
+#login-btn{
+  width:150px;
+  border-radius:1rem;
+  background-color:#F29133;
+  color:white;
+  border:none;
+  font-weight:bold;
+  font-size:20px;
+  cursor:pointer;
+  padding:10px 15px;
+}
+
+#login-btn:hover{
+  background-color: #f3a557;
 }
 
 .zeroeth-scroll,.about,.testimonials{
