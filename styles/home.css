@@ -47,13 +47,15 @@ p{
   display:flex;
 }
 
-a{
-  text-decoration:none;
+.right-navbar button{
+  background-color:#484848;
+  border:none;
   color:white;
   font-size:25px;
+  cursor:pointer;
 }
 
-a:hover{
+.right-navbar button:hover{
   color:#F29133;
 }
 
@@ -70,7 +72,7 @@ a:hover{
 }
 
 #login-btn:hover{
-  background-color: #f3a557;
+  background-color: #fdb36a;
 }
 
 .zeroeth-scroll,.about,.testimonials{
