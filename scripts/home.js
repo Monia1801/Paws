@@ -30,6 +30,6 @@ testimonials.addEventListener('click',()=>{
 const getStartedBtn=document.querySelector('#login-btn');
 
 getStartedBtn.addEventListener('click',()=>{
-  // window.location.href="login.html";
-  window.open("login.html","_self");
+  window.location.href="login.html";
+  // window.open("login.html","_self");
 });
