@@ -4,7 +4,8 @@ const testimonials=document.querySelector('#testimonials');
 
 const first=document.querySelector('.zeroeth-scroll');
 const second=document.querySelector('.about');
-3
+const third=document.querySelector('.testimonials');
+
 function scrollToSection(section) {
   const top = section.offsetTop; 
   const navbarHeight = document.querySelector('.navbar').offsetHeight;
