@@ -55,6 +55,10 @@ body{
   padding:10px;
 }
 
+#add:hover{
+  background-color:#fab067;
+}
+
 .profile-icon{
   position: relative;
   height: 25px;
@@ -170,7 +174,6 @@ body{
   display: flex;
   align-items: center;
   gap: 5px;
-  z-index: 2;
 }
 
 .badge2{
@@ -185,7 +188,6 @@ body{
   display: flex;
   align-items: center;
   gap: 5px;
-  z-index: 2;
 }
 
 .home-icon{
