@@ -4,8 +4,7 @@ const testimonials=document.querySelector('#testimonials');
 
 const first=document.querySelector('.zeroeth-scroll');
 const second=document.querySelector('.about');
-const third=document.querySelector('.testimonials');
-
+3
 function scrollToSection(section) {
   const top = section.offsetTop; 
   const navbarHeight = document.querySelector('.navbar').offsetHeight;
@@ -31,5 +30,6 @@ testimonials.addEventListener('click',()=>{
 const getStartedBtn=document.querySelector('#login-btn');
 
 getStartedBtn.addEventListener('click',()=>{
-  window.location.href="login.html";
+  // window.location.href="login.html";
+  window.open("login.html","_self");
 });
