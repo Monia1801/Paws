@@ -28,3 +28,8 @@ testimonials.addEventListener('click',()=>{
   scrollToSection(third);
 });
 
+const getStartedBtn=document.querySelector('#login-btn');
+
+getStartedBtn.addEventListener('click',()=>{
+  window.location.href="login.html";
+});
