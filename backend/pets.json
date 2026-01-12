@@ -1,0 +1,101 @@
+[
+  {
+    "image":"../images/pic1.jpg",
+    "petName":"Buddy",
+    "breed":"Golden Retriever",
+    "age":"8 months",
+    "location":{
+      "city":"San Francisco",
+      "state":"CA"
+    },
+    "type":"For Adoption"
+  },
+  {
+    "image":"../images/pic2.jpg",
+    "petName":"Whiskers",
+    "breed":"Persian Cat",
+    "age":"1 year",
+    "location":{
+      "city":"Los Angeles",
+      "state":"CA"
+    },
+    "type":"Temporary Care"
+  },
+  {
+    "image":"../images/pic3.jpg",
+    "petName":"Luna",
+    "breed":"Labrador Retriever",
+    "age":"1.5 years",
+    "location":{
+      "city":"Austin",
+      "state":"TX"
+    },
+    "type":"For Adoption"
+  },
+  {
+    "image":"../images/pic4.jpg",
+    "petName":"Mittens",
+    "breed":"Maine Coon Cat",
+    "age":"6 months",
+    "location":{
+      "city":"Seattle",
+      "state":"WA"
+    },
+    "type":"Temporary Care"
+  },
+  {
+    "image":"../images/pic5.jpg",
+    "petName":"Max",
+    "breed":"German Shepherd",
+    "age":"2 years",
+    "location":{
+      "city":"Chicago",
+      "state":"IL"
+    },
+    "type":"For Adoption"
+  },
+  {
+    "image":"../images/pic6.jpg",
+    "petName":"Bella",
+    "breed":"Indie Cat",
+    "age":"9 months",
+    "location":{
+      "city":"New York",
+      "state":"NY"
+    },
+    "type":"Temporary Care"
+  },
+  {
+    "image":"../images/pic7.jpg",
+    "petName":"Rocky",
+    "breed":"Rottweiler",
+    "age":"4 years",
+    "location":{
+      "city":"Dallas",
+      "state":"TX"
+    },
+    "type":"For Adoption"
+  },
+  {
+    "image":"../images/pic8.jpg",
+    "petName":"Shadow",
+    "breed":"Bombay Cat",
+    "age":"3 years",
+    "location":{
+      "city":"San Jose",
+      "state":"CA"
+    },
+    "type":"Temporary Care"
+  },
+  {
+    "image":"../images/pic9.jpg",
+    "petName":"Lucy",
+    "breed":"Beagle",
+    "age":"2 years",
+    "location":{
+      "city":"Bengaluru",
+      "state":"KA"
+    },
+    "type":"For Adoption"
+  }
+]
