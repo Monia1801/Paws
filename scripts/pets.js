@@ -15,6 +15,12 @@ export const pets = [
       specialCareNeeded: "No",
       anyExistingHealthIssues: "No"
     },
+    transactionDetails: {
+      cost: "₹25,000",
+      discount: "₹2,000",
+      totalCost: "₹23,000",
+      modeOfPayment: "Credit Card"
+    },
     petParentName: "Rohit Sharma"
   },
   {
@@ -32,6 +38,13 @@ export const pets = [
       lastVetCheckup: "November 10, 2025",
       specialCareNeeded: "Yes",
       anyExistingHealthIssues: "No"
+    },
+    transactionDetails: {
+      cost: "₹12,000",
+      discount: "₹1,000",
+      totalCost: "₹11,000",
+      modeOfPayment: "UPI",
+      numberOfDays: 7
     },
     petParentName: "Ananya Iyer"
   },
@@ -51,6 +64,12 @@ export const pets = [
       specialCareNeeded: "No",
       anyExistingHealthIssues: "No"
     },
+    transactionDetails: {
+      cost: "₹30,000",
+      discount: "₹2,500",
+      totalCost: "₹27,500",
+      modeOfPayment: "Cash"
+    },
     petParentName: "Vikram Kumar"
   },
   {
@@ -68,6 +87,13 @@ export const pets = [
       lastVetCheckup: "December 5, 2025",
       specialCareNeeded: "No",
       anyExistingHealthIssues: "No"
+    },
+    transactionDetails: {
+      cost: "₹15,000",
+      discount: "₹1,200",
+      totalCost: "₹13,800",
+      modeOfPayment: "Net Banking",
+      numberOfDays: 10
     },
     petParentName: "Meera Reddy"
   },
@@ -87,6 +113,12 @@ export const pets = [
       specialCareNeeded: "No",
       anyExistingHealthIssues: "No"
     },
+    transactionDetails: {
+      cost: "₹28,000",
+      discount: "₹2,000",
+      totalCost: "₹26,000",
+      modeOfPayment: "UPI"
+    },
     petParentName: "Arjun Banerjee"
   },
   {
@@ -104,6 +136,13 @@ export const pets = [
       lastVetCheckup: "October 15, 2025",
       specialCareNeeded: "No",
       anyExistingHealthIssues: "No"
+    },
+    transactionDetails: {
+      cost: "₹8,000",
+      discount: "₹500",
+      totalCost: "₹7,500",
+      modeOfPayment: "Credit Card",
+      numberOfDays: 5
     },
     petParentName: "Sonal Deshmukh"
   },
@@ -123,6 +162,12 @@ export const pets = [
       specialCareNeeded: "No",
       anyExistingHealthIssues: "No"
     },
+    transactionDetails: {
+      cost: "₹35,000",
+      discount: "₹3,000",
+      totalCost: "₹32,000",
+      modeOfPayment: "UPI"
+    },
     petParentName: "Nikhil Mehta"
   },
   {
@@ -141,6 +186,13 @@ export const pets = [
       specialCareNeeded: "No",
       anyExistingHealthIssues: "No"
     },
+    transactionDetails: {
+      cost: "₹10,000",
+      discount: "₹800",
+      totalCost: "₹9,200",
+      modeOfPayment: "Debit Card",
+      numberOfDays: 12
+    },
     petParentName: "Pooja Sharma"
   },
   {
@@ -158,6 +210,12 @@ export const pets = [
       lastVetCheckup: "September 10, 2025",
       specialCareNeeded: "No",
       anyExistingHealthIssues: "No"
+    },
+    transactionDetails: {
+      cost: "₹22,000",
+      discount: "₹1,500",
+      totalCost: "₹20,500",
+      modeOfPayment: "Cash"
     },
     petParentName: "Rahul Nair"
   }

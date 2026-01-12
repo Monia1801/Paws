@@ -20,10 +20,26 @@ document.getElementById('pet-last-checkup').textContent=pet.healthDetails?.lastV
 document.getElementById('pet-special-care-needed').textContent=pet.healthDetails?.specialCareNeeded || 'N/A';
 document.getElementById('pet-existing-health-issues').textContent=pet.healthDetails?.anyExistingHealthIssues || 'N/A';
 
+document.getElementById('cost').textContent=pet.transactionDetails.cost;
+document.getElementById('discount').textContent=pet.transactionDetails.discount;
+document.getElementById('total-cost').textContent=pet.transactionDetails.totalCost;
+document.getElementById('mode-of-payment').textContent=pet.transactionDetails.modeOfPayment;
+
+const type=pet.type;
+const daysGroup = document.getElementById('days-group');
+const noOfDays=document.getElementById('no-of-days');
+const card3=document.querySelector('.card3');
+
+if(type==="For Adoption") daysGroup.style.display="none";
+else {
+  daysGroup.style.display="block";
+  noOfDays.textContent=pet.transactionDetails.numberOfDays;
+}
+
 document.getElementById('parent-name').textContent=pet.petParentName || 'N/A';
 
 const backBtn=document.querySelector('#back');
 backBtn.addEventListener('click',()=>{
-  window.open("index.html","_self");
-  // window.location.href="index.html";
+  // window.open("index.html","_self");
+  window.location.href="index.html";
 });
