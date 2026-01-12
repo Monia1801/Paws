@@ -4,23 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Signup</title>
-  <link rel="stylesheet" href="./styles/signup & login.css">
+  <link rel="stylesheet" href="./styles/signup.css">
 </head>
 
 <body>
-    <div class="signup-box">
-      <h3>Enter Name</h3>
-      <input type="text">
-      <h3>Enter mail ID/Phone number</h3>
-      <input type="email">
-      <h3>Enter password</h3>
-      <input type="password">
-      <h3>Confirm password</h3>
-      <input type="password">
-      <div class="login-btn">
-        <button>Login</button>
-      </div>
-      <h3>Already have an account?<a href="./login.html">Login</a></h3>
+  <div class="top">
+    <img src="./images/logo.jpg">
+    <h1>Paws</h1>
+  </div>
+  <div class="signup-box">
+    <h2>Join Paws</h2>
+    <p>Create an account to find or rehome pets in need</p>
+    <form>
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your full name">
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email">
+    <label>Phone Number</label>
+    <input type="tel" placeholder="Enter your phone number">
+    <label>Password</label>
+    <input type="password" placeholder="Create a password">
+    <label>Confirm Password</label>
+    <input type="password" placeholder="Confirm your password">
+
+    <div class="create-account-btn">
+      <button type="submit">Create Account</button>
     </div>
+    </form>
+
+    <p>Already have an account?<a href="./login.html"> Sign in</a></p>
+  </div>
 </body>
 </html>
