@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Signup</title>
-  <link rel="stylesheet" href="./styles/signup.css">
+  <link rel="stylesheet" href="./styles/signup-signin.css">
 </head>
 
 <body>
@@ -12,27 +12,26 @@
     <img src="./images/logo.jpg">
     <h1>Paws</h1>
   </div>
-  <div class="signup-box">
+  <div class="auth-box">
     <h2>Join Paws</h2>
     <p>Create an account to find or rehome pets in need</p>
     <form>
-    <label>Full Name</label>
-    <input type="text" placeholder="Enter your full name">
-    <label>Email</label>
-    <input type="email" placeholder="Enter your email">
-    <label>Phone Number</label>
-    <input type="tel" placeholder="Enter your phone number">
-    <label>Password</label>
-    <input type="password" placeholder="Create a password">
-    <label>Confirm Password</label>
-    <input type="password" placeholder="Confirm your password">
-
-    <div class="create-account-btn">
-      <button type="submit">Create Account</button>
-    </div>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your full name">
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email">
+      <label>Phone Number</label>
+      <input type="tel" placeholder="Enter your phone number">
+      <label>Password</label>
+      <input type="password" placeholder="Create a password">
+      <label>Confirm Password</label>
+      <input type="password" placeholder="Confirm your password">
+      <div class="auth-btn-container">
+        <button type="submit" id="signup-btn">Create Account</button>
+      </div>
     </form>
-
-    <p>Already have an account?<a href="./login.html"> Sign in</a></p>
+    <p class="footer-text">Already have an account? <a href="./signin.html">Sign in</a></p>
   </div>
+  <script src="./scripts/signup-signin.js"></script>
 </body>
 </html>

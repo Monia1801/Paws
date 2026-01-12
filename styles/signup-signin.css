@@ -26,6 +26,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .top h1 {
@@ -34,16 +35,17 @@ body {
   font-weight: 800;
 }
 
-.signup-box {
+.auth-box {
   background: white;
   padding: 32px;
-  padding-bottom:12px;
+  padding-bottom:2px;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 440px;
   text-align: center;
   margin-bottom:24px;
+
 }
 
 h2 {
@@ -53,7 +55,7 @@ h2 {
   margin-bottom: 8px;
 }
 
-.signup-box  p {
+.auth-box > p {
   color: #64748b;
   font-size: 14px;
   margin-bottom: 24px;
@@ -88,7 +90,7 @@ input:focus {
   box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.1);
 }
 
-.create-account-btn button {
+.auth-btn-container button {
   width: 100%;
   padding: 14px;
   background-color: #f59e0b;
@@ -102,22 +104,22 @@ input:focus {
   margin-top: 8px;
 }
 
-.create-account-btn button:hover {
+.auth-btn-container button:hover {
   background-color: #d97706;
 }
 
-.signup-box p:last-child {
+.auth-box .footer-text {
   margin-top: 24px;
   font-size: 14px;
   color: #64748b;
 }
 
-.signup-box p:last-child a {
+.auth-box .footer-text a {
   color: #f59e0b;
   text-decoration: none;
   font-weight: 600;
 }
 
-.signup-box p:last-child a:hover {
+.auth-box .footer-text a:hover {
   text-decoration: underline;
 }
