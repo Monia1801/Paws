@@ -35,6 +35,6 @@ pets.forEach((pet,idx)=>{
 const cards=document.querySelectorAll('.card');
 cards.forEach((card,idx)=>{
   card.addEventListener('click',()=>{
-    window.open("petDetails.html","_self");
+    window.open(`petDetails.html?petIndex=${idx}`,"_self");
   });
 });
