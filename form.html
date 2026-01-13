@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add a pet</title>
+  <link rel="stylesheet" href="./styles/form.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-content">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="left-arrow">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>
+      <p>Add New Pet</p>
+    </div>
+  </div>
+
+  <div class="form-container">
+    <section>
+      <h3>Pet Photos</h3>
+      <p class="subtitle">Add up to 5 photos of your pet</p>
+      <div class="upload-box">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" />
+        </svg>
+      </div>
+    </section>
+
+    <section>
+      <h3>Basic Information</h3>
+      <div class="grid-row">
+        <div class="input-group">
+          <label>Pet Name *</label>
+          <input type="text" placeholder="Enter pet name">
+        </div>
+        <div class="input-group">
+          <label>Species *</label>
+          <select>
+            <option>Select species</option>
+            <option>Dog</option>
+            <option>Cat</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid-row">
+        <div class="input-group">
+          <label>Breed</label>
+          <input type="text" placeholder="Enter breed">
+        </div>
+        <div class="input-group">
+          <label>Age *</label>
+          <input type="text" placeholder="e.g., 2 years">
+        </div>
+      </div>
+
+      <div class="grid-row">
+        <div class="input-group">
+          <label>Gender *</label>
+          <div class="radio-group-inline">
+            <label><input type="radio" name="gender" checked> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <label>Color</label>
+          <input type="text" placeholder="Enter color">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Listing Type *</h3>
+      <div class="listing-options">
+        <label class="listing-card active">
+          <input type="radio" name="listing" checked>
+          <div class="card-text">
+            <strong>For Adoption</strong>
+            <span>Find a forever home</span>
+          </div>
+        </label>
+        <label class="listing-card">
+          <input type="radio" name="listing">
+          <div class="card-text">
+            <strong>Temporary Care</strong>
+            <span>Need someone to look after</span>
+          </div>
+        </label>
+      </div>
+    </section>
+
+    <section>
+      <h3>Health Information</h3>
+      <div class="checkbox-grid">
+        <label class="custom-checkbox">
+          <input type="checkbox"> <span class="checkmark"></span> Vaccinated
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox"> <span class="checkmark"></span> Neutered/Spayed
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox"> <span class="checkmark"></span> Microchipped
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox"> <span class="checkmark"></span> Dewormed
+        </label>
+      </div>
+    </section>
+
+    <section>
+      <div class="input-group">
+        <label>Description *</label>
+        <textarea placeholder="Tell us about your pet's personality, habits, and what makes them special..."></textarea>
+      </div>
+    </section>
+
+    <section>
+      <h3>Location</h3>
+      <div class="grid-row">
+        <div class="input-group">
+          <label>City *</label>
+          <input type="text" placeholder="Enter city">
+        </div>
+        <div class="input-group">
+          <label>State/Province</label>
+          <input type="text" placeholder="Enter state">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Contact Information</h3>
+      <div class="grid-row">
+        <div class="input-group">
+          <label>Your Name *</label>
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-group">
+          <label>Phone Number *</label>
+          <input type="text" placeholder="Enter phone number">
+        </div>
+      </div>
+      <div class="input-group full-width">
+        <label>Email</label>
+        <input type="email" placeholder="Enter email address">
+      </div>
+    </section>
+
+    <div class="form-actions">
+      <button type="button" class="btn-cancel">Cancel</button>
+      <button type="submit" class="btn-submit">Submit Listing</button>
+    </div>
+
+  </div>
+</body>
+</html>

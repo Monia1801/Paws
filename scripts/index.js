@@ -38,3 +38,8 @@ cards.forEach((card,idx)=>{
     window.open(`petDetails.html?petIndex=${idx}`,"_self");
   });
 });
+
+const addBtn=document.getElementById("add");
+addBtn.addEventListener('click',()=>{
+  window.location.href="form.html";
+});
