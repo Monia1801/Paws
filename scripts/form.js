@@ -11,3 +11,9 @@ submitBtn.addEventListener('click',(e)=>{
   const form=document.querySelector('form');
   if(form) form.reset();
 });
+
+const cancelBtn=document.querySelector('.btn-cancel');
+cancelBtn.addEventListener('click',()=>{
+  const form=document.querySelector('form');
+  if(form) form.reset();
+});
