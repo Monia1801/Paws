@@ -1,43 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paws Main</title>
-  <link rel="stylesheet" href="./styles/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws Home</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
-  <body>
-
+<body>
   <div class="navbar">
     <div class="left-navbar">
       <img src="./images/logo.jpg" id="logo">
       <h1>Paws</h1>
     </div>
-
-    <div class="search-wrapper">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="search-icon">
-        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-      </svg>
-      <input type="search" placeholder="Search pets by name, breed, location..." />
-    </div>
-
     <div class="right-navbar">
-      <button id="add">+ Add Pet</button>
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="profile-icon">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-      </svg>
+      <button id="home">Home</button>
+      <button id="how-it-works">How It Works</button>
+      <button id="testimonials">Testimonials</button>
+      <button id="login-btn">Get Started</button>
     </div>
-  </div>  
-
-  <div class="body-container">
-    <div class="heading">
-      <h3>Find Your Perfect Companion</h3>
-      <p>Browse adorable pets looking for their forever homes or temporary care</p>
-    </div>
-  
-    <div class="cards-container"> </div>
   </div>
 
-  <script type="module" src="./scripts/index.js"></script>
+  <div class="zeroeth-scroll">
+    <div class="zeroeth-scroll-container">
+      <div class="left-half">
+
+        <h1 style="color:#4E3629">Every Paw</h1>
+        <h1 style="color:#F29133">Deserves Love</h1>
+
+        <h3>Connect with loving pet owners. Adopt a new family member, find temporary care, or give your pet a loving new home.</h3>
+
+        <div class="left-half-btns">
+          <button id="find-a-pet">Find a pet</button>
+          <button id="post-your-pet">Post your pet</button>
+        </div>
+      </div>
+      <div class="right-half">
+
+        <img src="./images/home.png">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="about-container">
+      <div class="about-container-headings">
+        <h1>How this works</h1>
+        <h3>Connecting pet owners with loving adopters and caretakers has never been easier.</h3>
+      </div>
+      <div class="about-container-cards">
+
+        <div class="card card1">
+          <div class="circular-icon">1</div>
+          <h2>Post your pet</h2>
+          <p>Upload photos and details of your pet. Whether for adoption or temporary car, reach thousands of pet lovers.</p>
+        </div>
+
+        <div class="card card2">
+          <div class="circular-icon">2</div>
+          <h2>Request to Connect</h2>
+          <p>Interested in a pet? Send a connection request. The owner reviews your profile and decides to connect.</p>
+        </div>
+
+        <div class="card card3">
+          <div class="circular-icon">3</div>
+          <h2>Safe Communication</h2>
+          <p>Once connected, share contact details or chat directly through our secure platform.</p>
+        </div>
+
+        <div class="card card4">
+          <div class="circular-icon">4</div>
+          <h2>Temporary Care</h2>
+          <p>Going on vacation? Find trusted caretakers who'll love your pet while you're away.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials">
+
+    <div class="testimonials-container">
+
+      <div class="testimonials-container-headings">
+        <h1>Happy Tails & Happy Hearts</h1>
+        <h3>See what our community has to say about their Paws experience</h3>
+      </div>
+
+      <div class="testimonials-container-cards">
+        <div class="testimonialCard card1">
+          <div class="stars">★★★★★</div>
+          <p>"Found my best friend through Paws! The connection process was so smooth, and the previous owner was wonderful. Max has brought so much joy to our family."</p>
+          <div class="profile-section">
+            <div class="circular-icon profile-sj">SJ</div>
+            <div class="profile-info">
+              <h4>Sarah Johnson</h4>
+              <span>Pet Adopter</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonialCard card2">
+          <div class="stars">★★★★★</div>
+          <p>"I love being a temporary caretaker! It's perfect for my lifestyle - I get to spend time with adorable pets while helping owners who need to travel."</p>
+          <div class="profile-section">
+            <div class="circular-icon profile-sj">SJ</div>
+            <div class="profile-info">
+              <h4>Sarah Johnson</h4>
+              <span>Pet Adopter</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonialCard card3">
+          <div class="stars">★★★★★</div>
+          <p>"When I had to travel for work, Paws connected me with the sweetest caretaker for my cat Luna. She was in amazing hands!"</p>
+          <div class="profile-section">
+            <div class="circular-icon profile-sj">SJ</div>
+            <div class="profile-info">
+              <h4>Sarah Johnson</h4>
+              <span>Pet Adopter</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="scripts/index.js"></script>
 </body>
 </html>

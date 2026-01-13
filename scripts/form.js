@@ -1,6 +1,6 @@
 const backBtn=document.querySelector('.left-arrow');
 backBtn.addEventListener('click',()=>{
-  window.location.href="index.html";
+  window.location.href="home.html";
 });
 
 const submitBtn=document.querySelector('.btn-submit');

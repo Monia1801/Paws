@@ -41,5 +41,5 @@ document.getElementById('parent-name').textContent=pet.petParentName || 'N/A';
 const backBtn=document.querySelector('#back');
 backBtn.addEventListener('click',()=>{
   // window.open("index.html","_self");
-  window.location.href="index.html";
+  window.location.href="home.html";
 });
